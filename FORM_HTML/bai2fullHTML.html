@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+            <!-- dùng POST khi làm form bảo mật, GET sẽ bị đẩy lên url -->
+    <form
+        action = "https://www.w3schools.com/action_page.php"
+        target = "_blank"
+        methot = "POST" 
+    > 
+    
+        <label for = "fullName"> Họ tên: </label>
+        <br>
+        <input type = "text" id = "fullName" name = "fullname"> 
+               <!-- for phải trùng với id -->
+        <br>
+        <br> 
+
+
+        <lable for = "password"> Mật khẩu: </lable>
+        <br>
+        <input type = "password" id = "password" name = "pass">
+                <!-- for phải trùng với id -->
+        <br>
+
+
+        <label for = "email">Email: </label>
+        <br>
+        <input type = "text" id = "email" name = "email">
+                 <!-- for phải trùng với id -->
+        <br>
+        <br>
+
+
+        <lable for "soluong">Số lượng: </lable>
+        <br>
+        <input type = "number" id = "soluong" name = "soluong">
+        <!-- chỉ nhập được số-->
+        <br>
+        <br>
+
+
+        <label for = "date">Chọn ngày: </label>
+        <input type = "date" id = "date" name = "DAY">
+        <!-- chọn ngày -->
+        <br>
+        <br>
+
+
+        <label for = "time">Chọn giờ:</label>
+        <input type = "time" id = "time" name = "time"> 
+        <!-- CHỌN GIỜ -->
+        <br>
+        <br>
+
+
+        <label for = "day_end_time"> Chọn ngày và thời gian </label>
+        <br>
+        <input type = "datetime-local" id = "day_end_time" name = "day_time">
+        <!-- CHỌN NGÀY VÀ THỜI GIAN -->
+        <br>
+        <br>
+        <label for = "document"> Chọn file: </label>
+        <input type = "file" id = "document" name = "tai_lieu"> 
+        <!-- CHỌN FILE -->
+        <br>
+        <br>
+
+        <label for = "colors">Chọn màu sắc: </label>
+        <br>
+
+        <select id = "colors" name = "color">
+            <option>-- lựa chọn--</option>
+            <option value = "yellow"> Vàng </option>
+            <option valur = "red"> đỏ </option>
+            <option value = "green"> xanh lá </option>
+            <option value = "black"> đen </option>
+        </select>
+        <br>
+        <br>
+        <label for="note"> Nhập ghi chú:  </label>
+        <br>
+
+        <textarea type = "text" id = "note" name = "fnote"></textarea>
+        <br>
+        <br>
+
+        <input type = "checkbox" id = "ngon_ngu_c" name = "language">
+        <label for = "ngon_ngu_c"> Ngôn Ngữ C </label>
+        <br>
+        <input type = "checkbox" id = "ngon_ngu_java" name = "language">
+        <label for = "ngon_ngu_java"> Ngôn Ngữ Java </label>
+        <br>
+        <input type = "checkbox" id = "ngon_ngu_python" name = "language">
+        <label for = "ngon_ngu_python"> Ngôn Ngữ Python </label>
+        <br>
+        <input type = "radio" id = "ngon_ngu_ruby" name = "language">
+        <label for = "ngon_ngu_ruby"> Ngôn Ngữ Ruby </label>
+
+        <!-- TYPE checkbox GIỐNG TYPE radio ĐỀU LÀ TÍCH CHỌN -->
+
+        <br>
+
+        <input type = "submit" value = "Gửi">
+    </form>
+</body>
+</html>

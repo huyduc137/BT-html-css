@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUY DEP TRAI</title>
+</head>
+
+<body>
+    <h2>Câu 1: Tạo form đăng kí tài khoản</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đăng kí tài khoản </b>như bên dưới</p>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="GET" autocomplete="on">
+        <label for="fullname">Họ tên:</label>
+        <br>
+        <input type="text" id="fullname" name="name" placeholder="Ví dụ: levana">
+        <br>
+        <label for="Email">Email:</label>
+        <br>
+        <input type="email" id="Email" name="email" placeholder="Ví dụ: levana@gmail.com">
+        <br>
+        <label for="pass">Mật khẩu:</label>
+        <br>
+        <input type="password" id="pass" name="pass">
+        <br>
+        <br>
+        <input type="submit" value="Đăng kí">
+    </form>
+    <h2>Câu 2: Tạo form Đăng ký chi tiết</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đăng kí chi tiết </b>như bên dưới.</p>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="GET" autocomplete="on">
+        <label for="fullname">Họ tên:</label>
+        <br>
+        <input type="text" id="fullname" name="fullname">
+        <br>
+        <label for="Email">Email:</label>
+        <br>
+        <input type="email" id="Email" name="Email">
+        <br>
+        <label for="pass">Mật khẩu:</label>
+        <br>
+        <input type="password" id="pass" name="pass">
+        <br>
+        <label for="pass_again">Xác nhận mật khẩu:</label>
+        <br>
+        <input type="password" id="pass_again" name="pass_again">
+        <br>
+        <label>Giới tính:</label>
+        <br>
+        <input type="radio" id="man" name="sex" value="Nam">
+        <label for="man">Nam</label>
+        <br>
+        <input type="radio" id="woman" name="sex" value="Nữ">
+        <label for="woman">Nữ</label><br>
+        <input type="radio" id="Diff" name="sex" value="Khác">
+        <label for="Diff">Khác</label>
+
+        <br>
+        <label for="nation">Quốc gia:</label><br>
+        <select id="nation" name="Nation">
+            <option value="Việt Nam" selected>Việt Nam</option>
+            <option valur="Thái Lan">Thái Lan</option>
+            <option value="Nhật Bản">Nhật bản</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Đăng ký">
+        <br>
+
+        <h2>Câu 3: Tạo form Đánh giá sản phẩm</h2>
+        <p><b>Yêu cầu:</b> Tạo form<b> Đánh giá sản phẩm</b> như bên dưới.</p>
+
+    </form>
+    <form action="https://www.w3schools.com/action_page.php" target="_blank" mothod="GET" autocomplete="on">
+        <label for="namesp">Tên sản phẩm:</label><br>
+        <input type="text" id="namesp" name="namesp">
+        <br>
+        <label for = "danh_gia">Đánh giá:</label>
+        <br>
+        <input type="radio" id="namsao" name="danh_gia" value="5">
+        <label for="namsao">5 sao</label><br>
+        <input type="radio" id="bonsao" name="danh_gia" value="4">
+        <label for="bonsao">4 sao</label><br>
+        <input type="radio" id="basao" name="danh_gia" value="3">
+        <label for="basao">3 sao</label><br>
+        <input type="radio" id="haisao" name="danh_gia" value="2">
+        <label for="haisao">2 sao</label><br>
+        <input type="radio" id="motsao" name="danh_gia" value="1">
+        <label for="motsao">1 sao</label><br>
+        <label for="note">Bình luận:</label>
+        <br>
+        <textarea id="note" name="note"> </textarea>
+        <br><br>
+        <input type = "submit" value = "Gửi đánh giá">
+    </form>
+</body>
+</html>
