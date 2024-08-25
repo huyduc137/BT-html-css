@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HUY DEP TRAI</title>
+    <title>HUY DEP TRAI VCL</title>
 </head>
 
 <body>
@@ -74,7 +74,7 @@
         <label for="namesp">Tên sản phẩm:</label><br>
         <input type="text" id="namesp" name="namesp">
         <br>
-        <label for = "danh_gia">Đánh giá:</label>
+        <label for="danh_gia">Đánh giá:</label>
         <br>
         <input type="radio" id="namsao" name="danh_gia" value="5">
         <label for="namsao">5 sao</label><br>
@@ -88,9 +88,37 @@
         <label for="motsao">1 sao</label><br>
         <label for="note">Bình luận:</label>
         <br>
-        <textarea id="note" name="note"> </textarea>
+        <textarea id="note" name="note" rows="5"></textarea>
         <br><br>
-        <input type = "submit" value = "Gửi đánh giá">
+        <input type="submit" value="Gửi đánh giá">
     </form>
+    <form action="https://www.w3schools.com/action_page.php" method="GET" target="_blank" autocomplete="on">
+        <h2>Câu 4: Tạo form Đặt phòng khách sạn</h2>
+        <p><b>Yêu cầu:</b> Tạo form<b> Đặt phòng khách sạn</b> như bên dưới.</p>
+        <label for="fullname">Họ và tên:</label><br>
+        <input type="text" id="fullname" name="fullname"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="Email" name="Email"><br>
+        <label for="Day_nhan">Ngày nhận phòng:</label><br>
+        <input type="date" id="Day_nhan" name="Dmy_nhan"><br>
+        <label for="Day_tra">Ngày trả phòng: </label><br>
+        <input type="date" id="Day_tra" name="Dmy_tra"><br>
+        <label for="room">Loại phòng: </label><br>
+        <select id="room">
+            <option selected value="Room_thuong">Phòng thường</option>
+            <option value="Room_VIP">Phòng VIP</option>
+            <option value="Room_family">Phòng gia đình</option>
+        </select>
+        <br>
+        <label for="Note">Yêu cầu đặc biệt:</label><br>
+        <textarea name="Note" id="Note" rows="5"></textarea><br><br>
+        <input type="submit" value="Đặt phòng">
+        <form action="https://www.w3schools.com/action_page.php" mothod="GET" target="_blank" autocomplete="on">
+            <h2>Câu 5: Tạo form Tìm Kiếm</h2>
+            <p><b>Yêu cầu: </b>Tạo form <b>Tìm kiếm</b> như bên dưới.</p>
+            <input type="text" placeholder="Nhập từ khóa..." name="Search">
+            <input type="submit" value="Tìm kiếm">
+        </form>
 </body>
+
 </html>
